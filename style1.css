@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* font */
+     font-family: "Roboto", sans-serif;
 }
 
 :root {
@@ -29,6 +29,10 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+}
+
+a{
+     font-family: "Playwrite NZ Basic", cursive;
 }
 
 .navbar {
@@ -249,9 +253,10 @@ body {
 }
 
 .file-name {
-    font-family: /*font*/;
+    font-family:"Ranchers", sans-serif;
     font-size: 0.75rem;
     color: var(--text-muted);
+    letter-spacing: 3px;
 }
 
 .window-dots {
